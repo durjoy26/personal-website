@@ -1,0 +1,152 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+.container{
+    width: 1120px;
+    margin: auto;
+}
+.banner{
+    padding: 90px 0px;
+    margin: 0px;
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+}
+.half-width {
+    width: 47%;
+}
+img{
+    width: 100%;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1.uppercase {
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin: 0px;
+}
+p {
+    color: #8d8a86;
+}
+h1.uppercase.highlight {
+    color: #ec4c7a;
+    font-size: 47px;
+    font-weight: 600;
+}
+button {
+    background-color: #ffffff00; 
+    border: none;
+    padding: 0px;
+    margin: 0px;
+}
+a.capita {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #ec4c7a;
+    color: white;
+    font-size: 17px;
+    padding: 10px 26px;
+    border-radius: 3px;
+    font-weight: 500;
+    margin-top: 10px;
+    display: inline-block;
+}
+.biography{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    padding: 90px 0px;
+}
+.bio-profile{
+    display: flex;
+    justify-content: space-between;
+}
+img.bio-img {
+    width: 85%;
+}
+a.capita.bio-button {
+    text-transform: capitalize;
+}
+.half-width.bio-content {
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+.my-work{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    padding: 90px 0px;
+}
+.header {
+    text-align: center;
+    /* padding: 20px 0px; */
+    padding: 0px 0px 29px 0px;
+}
+.header {
+    text-align: center;
+    /* padding: 20px 0px; */
+    padding: 0px 0px 50px 0px;
+}
+
+.work {
+    display: flex;
+    justify-content: space-between;
+}
+
+img.work-img {
+    width: 32%;
+}
+.height {
+    height: 600px;
+}
+.work-height {
+    height: 450px;
+}
+.client{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+}
+.client-area{
+    text-align: center;
+}
+h4 {
+    text-transform: capitalize;
+    margin-bottom: 0px;
+}
+
+h6 {
+    margin-top: 0px;
+    color: #8d8d8d;
+    font-size: revert;
+    font-weight: 400;
+}
+.testimony{
+    width: 47%;
+    margin: auto;
+}
+button.contact {
+    background-color: #ec4e7e;
+    /* color: white; */
+    border-radius: 5px;
+    margin: 46px 0px 0px 0px;
+}
+
+button.contact h6 {
+    color: white;
+    font-size: 12px;
+    margin: 10px;
+}
+
+button.contact p {
+    color: white;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+.footer p {
+    text-align: center;
+    background-color: #ffffff00;
+    margin: 0px;
+}
